@@ -13,7 +13,7 @@ def games_page(request):
         'game2': game2,
         'game3': game3
     }
-    return render(request, 'games.html', context)
+    return render(request, 'games3.html', context)
 
 def cart_page(request):
-    return render(request, 'cart.html')
+    return render(request, 'cart3.html')
